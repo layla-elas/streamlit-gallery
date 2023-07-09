@@ -7,15 +7,15 @@ def main():
     page = page_group("p")
 
     with st.sidebar:
-        st.title("🎈 Okld's Gallery")
+        st.title("Validez votre choix")
 
-        with st.expander("✨ APPS", True):
+        with st.expander("RSA Application", True):
             page.item("Streamlit gallery", apps.gallery, default=True)
 
-        with st.expander("🧩 COMPONENTS", True):
-            page.item("Ace editor", components.ace_editor)
-            page.item("Disqus", components.disqus)
-            page.item("Elements⭐", components.elements)
+        with st.expander(" COMPONENTS", True):
+            page.item("Génerer une clé", components.ace_editor)
+            page.item("chiffrer le message", components.disqus)
+            page.item("décchiffrer le message", components.elements)
             page.item("Pandas profiling", components.pandas_profiling)
             page.item("Quill editor", components.quill_editor)
             page.item("React player", components.react_player)
