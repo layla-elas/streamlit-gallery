@@ -1,4 +1,4 @@
-# 🎉 Streamlit Gallery
+# RSA Application
 
 [![Open in Streamlit][share_badge]][share_link] [![GitHub][github_badge]][github_link]
 
